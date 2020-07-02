@@ -1,0 +1,75 @@
+:root {
+    --alt-color: 55, 178, 203; /* Must be an rgb color for opacity to work */
+}
+
+
+[style*="background-color: rgb(114, 137, 218)"],
+div[class*="colorDefault"].focused-3afm-j,
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
+    color: #fff !important;
+}
+
+button[class*="lookOutlined"].colorBrand-3pXr91 {
+    color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color), 30%);
+}
+
+button[class*="lookOutlined"].colorBrand-3pXr91:hover {
+    border-color: rgba(var(--alt-color), 50%);
+}
+
+[class^="regionSelectModalOption-"]:hover,
+[style*="border-color: rgb(114, 137, 218)"],
+.input-cIJ7To.focused-1mmYsC,
+.input-cIJ7To:focus {
+    border-color: rgba(var(--alt-color)) !important;
+}
+
+circle[class^="radioSelection-"],
+[fill*="7289da"] {
+    fill: rgba(var(--alt-color)) !important;
+}
+
+polyline[stroke*="7289da"] {
+    stroke: rgba(var(--alt-color)) !important;
+}
+
+[class^="sampleLink-"],
+.title-2Dc-Cb,
+[class^="regionSelectModalHeader-"],
+.lookGhost-2Fn_0-.colorBrand-3pXr91,
+.lookLink-9FtZy-.colorBrand-3pXr91,
+[aria-label="Verified"],
+[style*="color: rgb(114, 137, 218)"],
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN,
+div[class*="colorBrand"] {
+    color: rgba(var(--alt-color)) !important;
+}
+
+[class^="avatarUploaderInner-"] {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
+span[class^="questionMark-"],
+.interactive:hover,
+[style*="background-color: rgb(114, 137, 218)"],
+[style*="background: rgb(114, 137, 218)"],
+div[class^="newMessagesBar-"],
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9,
+div[class^="dot-"],
+span[class*="botTagRegular"],
+div[class*="barFill"],
+div[class*="headerPlaying"],
+div[class*="headerStreaming"],
+div[class*="themeDefault"].valueChecked-m-4IJZ,
+div[class*="colorDefault"].focused-3afm-j,
+div[class*="colorDefault"].focused-3afm-j:active,
+button[class*="lookFilled"].colorBrand-3pXr91,
+button[class*="lookFilled"].colorBrand-3pXr91:disabled,
+button[class*="lookFilled"].colorBrand-3pXr91:hover {
+    background-color: rgba(var(--alt-color)) !important;
+    color: #fff !important;
+    border-color: rgba(var(--alt-color)) !important;
+}
