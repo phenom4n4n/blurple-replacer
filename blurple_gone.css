@@ -2,6 +2,54 @@
     --alt-color: 55, 178, 203; /* Must be an rgb color for opacity to work */
 }
 
+/* Clyde / Powercord */
+
+.localBot-GrCgVt:before {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+.localBot-GrCgVt {
+    background-color: rgba(var(--alt-color), 0.05) !important;
+}
+
+/* Playing / Streaming Background */
+
+div[class*="headerPlaying"],
+div[class*="headerStreaming"] {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+/* Menus */
+
+div[class*="colorDefault-"].focused-3afm-j,
+div[class*="colorDefault-"].focused-3afm-j:active {
+    background-color: rgba(var(--alt-color)) !important;
+    color: #fff !important;
+}
+
+div[class*="colorDanger-"].focused-3afm-j,
+div[class*="colorDanger-"].focused-3afm-j:active {
+    background-color: #f04747 !important;
+}
+
+/* Buttons */
+
+div[class*="themeDefault"].valueChecked-m-4IJZ,
+button[class*="lookFilled"].colorBrand-3pXr91,
+button[class*="lookFilled"].colorBrand-3pXr91:disabled,
+button[class*="lookFilled"].colorBrand-3pXr91:hover {
+    background-color: rgba(var(--alt-color)) !important;
+    color: #fff !important;
+    border-color: rgba(var(--alt-color)) !important;
+}
+
+/* Sliders */
+
+div[class*="barFill-"] {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+/* Other stuff */
 
 [style*="background-color: rgb(114, 137, 218)"],
 div[class*="colorDefault"].focused-3afm-j,
@@ -59,32 +107,8 @@ span[class^="questionMark-"],
 div[class^="newMessagesBar-"],
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 div[class^="dot-"],
-span[class*="botTagRegular"],
-div[class*="barFill"],
-div[class*="headerPlaying"],
-div[class*="headerStreaming"],
-div[class*="themeDefault"].valueChecked-m-4IJZ,
-div[class*="colorDefault-"].focused-3afm-j,
-div[class*="colorDefault-"].focused-3afm-j:active,
-button[class*="lookFilled"].colorBrand-3pXr91,
-button[class*="lookFilled"].colorBrand-3pXr91:disabled,
-button[class*="lookFilled"].colorBrand-3pXr91:hover {
+span[class*="botTagRegular"] {
     background-color: rgba(var(--alt-color)) !important;
     color: #fff !important;
     border-color: rgba(var(--alt-color)) !important;
-}
-
-div[class*="colorDanger-"].focused-3afm-j,
-div[class*="colorDanger-"].focused-3afm-j:active {
-    background-color: #f04747 !important;
-}
-
-/* Clyde / Powercord */
-
-.localBot-GrCgVt:before {
-    background-color: rgba(var(--alt-color)) !important;
-}
-
-.localBot-GrCgVt {
-    background-color: rgba(var(--alt-color), 0.05) !important;
 }
