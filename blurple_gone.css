@@ -64,12 +64,17 @@ div[class*="barFill"],
 div[class*="headerPlaying"],
 div[class*="headerStreaming"],
 div[class*="themeDefault"].valueChecked-m-4IJZ,
-div[class*="colorDefault"].focused-3afm-j,
-div[class*="colorDefault"].focused-3afm-j:active,
+div[class*="colorDefault-"].focused-3afm-j,
+div[class*="colorDefault-"].focused-3afm-j:active,
 button[class*="lookFilled"].colorBrand-3pXr91,
 button[class*="lookFilled"].colorBrand-3pXr91:disabled,
 button[class*="lookFilled"].colorBrand-3pXr91:hover {
     background-color: rgba(var(--alt-color)) !important;
     color: #fff !important;
     border-color: rgba(var(--alt-color)) !important;
+}
+
+div[class*="colorDanger-"].focused-3afm-j,
+div[class*="colorDanger-"].focused-3afm-j:active {
+    background-color: #f04747 !important;
 }
