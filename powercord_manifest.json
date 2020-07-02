@@ -1,0 +1,8 @@
+{
+    "author": "PhenoM4n4n",
+    "license": "MIT",
+    "version": "1.0.0",
+    "name": "blurpler-replacer",
+    "theme": "blurple_gone.css",
+    "description": "Discord theme that replaces (almost) all instances of blurple with a color of your choice."
+}
