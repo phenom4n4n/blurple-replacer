@@ -78,3 +78,13 @@ div[class*="colorDanger-"].focused-3afm-j,
 div[class*="colorDanger-"].focused-3afm-j:active {
     background-color: #f04747 !important;
 }
+
+/* Clyde / Powercord */
+
+.localBot-GrCgVt:before {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+.localBot-GrCgVt {
+    background-color: rgba(var(--alt-color), 0.05) !important;
+}
