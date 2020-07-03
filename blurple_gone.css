@@ -49,6 +49,16 @@ div[class*="barFill-"] {
     background-color: rgba(var(--alt-color)) !important;
 }
 
+/* Reactions */
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+    background-color: rgba(var(--alt-color), 0.3);
+}
+
+.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+    color: rgba(var(--alt-color));
+}
+
 /* Other stuff */
 
 [style*="background-color: rgb(114, 137, 218)"],
@@ -97,6 +107,10 @@ div[class*="colorBrand"] {
 
 [class^="avatarUploaderInner-"] {
     background-color: rgba(var(--alt-color)) !important;
+}
+
+[style*="background-color: rgba(114, 137, 218, 0.4)"] {
+    background-color: rgba(var(--alt-color), 40%) !important;
 }
 
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
