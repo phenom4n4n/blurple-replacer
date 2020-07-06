@@ -59,6 +59,20 @@ div[class*="barFill-"] {
     color: rgba(var(--alt-color));
 }
 
+/* Server Boost Icon */
+
+div[class*="subscribeTooltipWrapper-"] {
+    background-color: rgba(var(--alt-color));
+}
+
+div[class*="subscribeTooltipWrapper-"]::after {
+    border-bottom-color: rgba(var(--alt-color));
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    color: rgba(var(--alt-color));
+}
+
 /* Other stuff */
 
 [style*="background-color: rgb(114, 137, 218)"],
