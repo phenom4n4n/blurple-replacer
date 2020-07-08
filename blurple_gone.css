@@ -119,6 +119,7 @@ div[class*="colorBrand"] {
     color: rgba(var(--alt-color)) !important;
 }
 
+div[class*="topSectionPlaying-"],
 [class^="avatarUploaderInner-"] {
     background-color: rgba(var(--alt-color)) !important;
 }
