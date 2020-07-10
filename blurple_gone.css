@@ -73,6 +73,11 @@ div[class*="subscribeTooltipWrapper-"]::after {
     color: rgba(var(--alt-color));
 }
 
+/* Bot Buttons */
+span[class*="botTagInvert-"] {
+    color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 
 [style*="background-color: rgb(114, 137, 218)"],
