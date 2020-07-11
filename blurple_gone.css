@@ -74,7 +74,14 @@ div[class*="subscribeTooltipWrapper-"]::after {
 }
 
 /* Bot Buttons */
+
 span[class*="botTagInvert-"] {
+    color: rgba(var(--alt-color)) !important;
+}
+
+/* Message Edit Buttons */
+
+div[class*="operations-"] > a {
     color: rgba(var(--alt-color)) !important;
 }
 
