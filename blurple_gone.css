@@ -85,13 +85,6 @@ div[class*="operations-"] > a {
     color: rgba(var(--alt-color)) !important;
 }
 
-/* Mentions */
-
-div[class*="message-"] strong {
-    color: rgba(var(--alt-color)) !important;
-    background-color: rgba(var(--alt-color), 0.1) !important;
-}
-
 /* Channel Sync Buttons */
 
 button[class*="lookGhost-"].colorBrand-3pXr91 {
