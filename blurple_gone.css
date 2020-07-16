@@ -92,6 +92,17 @@ button[class*="lookGhost-"].colorBrand-3pXr91 {
     background-color: rgba(var(--alt-color), 0.1) !important;
 }
 
+/* Video Player */
+
+div[class*="mediaBarInteractionDragging-"] .mediaBarGrabber-1FqnbN,
+.mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN,
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl::after, 
+.mediaBarProgress-1xaPtl::before {
+    background-color: rgba(var(--alt-color));
+}
+
 /* Other stuff */
 
 [style*="background-color: rgb(114, 137, 218)"],
