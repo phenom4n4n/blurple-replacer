@@ -110,8 +110,15 @@ div[class*="guildAvatarWithoutIcon-"] {
 }
 
 /* Cube Loading Spinner */
+
 span[class*="wanderingCubesItem-"] {
     background-color: rgba(var(--alt-color));
+}
+
+/* Load More Messages */
+
+.hasMore-3e72_v {
+    color: rgba(var(--alt-color));
 }
 
 /* Other stuff */
