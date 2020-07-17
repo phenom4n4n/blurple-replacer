@@ -103,6 +103,12 @@ div[class*="mediaBarInteractionDragging-"] .mediaBarGrabber-1FqnbN,
     background-color: rgba(var(--alt-color));
 }
 
+/* Guild Avatar Without Icon */
+
+div[class*="guildAvatarWithoutIcon-"] {
+    background-color: rgba(var(--alt-color));
+}
+
 /* Other stuff */
 
 [style*="background-color: rgb(114, 137, 218)"],
