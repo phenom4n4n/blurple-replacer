@@ -121,9 +121,37 @@ span[class*="wanderingCubesItem-"] {
     color: rgba(var(--alt-color));
 }
 
+/* Server Verified Badges */
+
+svg[aria-label="Verified"] {
+    color: rgba(var(--alt-color)) !important;
+}
+
+/* Wide Buttons */
+
+div[class*="radioGroup-"] div[style*="background-color: rgb(114, 137, 218)"] {
+    background-color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color)) !important;
+}
+div[class*="cardPrimaryEditable-"] div[style*="border-color: rgb(114, 137, 218)"] {
+    border-color: rgba(var(--alt-color)) !important;
+}
+
+/* Discord Nitro Button in Settings */
+
+div[class*="side-"] div[style*="color: rgb(114, 137, 218)"] {
+    color: rgba(var(--alt-color)) !important;
+}
+div[class*="side-"] div[style*="background-color: rgb(114, 137, 218)"] {
+    background-color: rgba(var(--alt-color)) !important;
+    color: #fff !important;
+}
+div[class*="side-"] div[style*="background-color: rgba(114, 137, 218, 0.1)"] {
+    background-color: rgba(var(--alt-color), 0.1) !important;
+}
+
 /* Other stuff */
 
-[style*="background-color: rgb(114, 137, 218)"],
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
     color: #fff !important;
@@ -139,7 +167,6 @@ button[class*="lookOutlined"].colorBrand-3pXr91:hover {
 }
 
 [class^="regionSelectModalOption-"]:hover,
-[style*="border-color: rgb(114, 137, 218)"],
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
     border-color: rgba(var(--alt-color)) !important;
@@ -159,8 +186,6 @@ polyline[stroke*="7289da"] {
 [class^="regionSelectModalHeader-"],
 .lookGhost-2Fn_0-.colorBrand-3pXr91,
 .lookLink-9FtZy-.colorBrand-3pXr91,
-[aria-label="Verified"],
-[style*="color: rgb(114, 137, 218)"],
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN,
 div[class*="colorBrand"] {
@@ -179,8 +204,6 @@ div[class*="topSectionPlaying-"],
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 span[class^="questionMark-"],
 .interactive:hover,
-[style*="background-color: rgb(114, 137, 218)"],
-[style*="background: rgb(114, 137, 218)"],
 div[class^="newMessagesBar-"],
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 div[class^="dot-"],
