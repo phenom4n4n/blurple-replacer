@@ -150,6 +150,15 @@ div[class*="side-"] div[style*="background-color: rgba(114, 137, 218, 0.1)"] {
     background-color: rgba(var(--alt-color), 0.1) !important;
 }
 
+/* Folder Icons */
+
+div[class*="expandedFolderIconWrapper-"] svg[style*="color: rgb(114, 137, 218);"] {
+    color: rgba(var(--alt-color)) !important;
+}
+div[class*="folder-"] div[style*="background-color: rgba(114, 137, 218, 0.4)"] {
+    background-color: rgba(var(--alt-color), 40%) !important;
+}
+
 /* Other stuff */
 
 div[class*="colorDefault"].focused-3afm-j,
@@ -195,10 +204,6 @@ div[class*="colorBrand"] {
 div[class*="topSectionPlaying-"],
 [class^="avatarUploaderInner-"] {
     background-color: rgba(var(--alt-color)) !important;
-}
-
-[style*="background-color: rgba(114, 137, 218, 0.4)"] {
-    background-color: rgba(var(--alt-color), 40%) !important;
 }
 
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
