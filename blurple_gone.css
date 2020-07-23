@@ -159,6 +159,13 @@ div[class*="folder-"] div[style*="background-color: rgba(114, 137, 218, 0.4)"] {
     background-color: rgba(var(--alt-color), 40%) !important;
 }
 
+/* Checkbox Button (1 of 1000) */
+
+label[class*="checkboxWrapper-"] div[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+    border-color: rgba(var(--alt-color)) !important;
+    background-color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 
 div[class*="colorDefault"].focused-3afm-j,
