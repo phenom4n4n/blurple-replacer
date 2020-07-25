@@ -166,6 +166,12 @@ label[class*="checkboxWrapper-"] div[style*="border-color: rgb(114, 137, 218); b
     background-color: rgba(var(--alt-color)) !important;
 }
 
+/* the nitro tier thing */
+
+div[class*="tierUnlocked-"] {
+    color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 
 div[class*="colorDefault"].focused-3afm-j,
