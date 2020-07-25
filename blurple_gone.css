@@ -172,6 +172,25 @@ div[class*="tierUnlocked-"] {
     color: rgba(var(--alt-color)) !important;
 }
 
+/* Upload Image Button */
+
+svg circle[fill*="#7289DA"] {
+    fill: rgba(var(--alt-color)) !important;
+}
+
+/* Audit Log Search */
+
+div[class*="scroller-"] div[style*="background: rgb(114, 137, 218);"] {
+    background: rgba(var(--alt-color)) !important;
+}
+
+/* Clear After Popout Border */
+
+.lookFilled-1h1y05.select-1Pkeg4:focus,
+.lookFilled-1h1y05.selectOpen-hQuR6b {
+    border-color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 
 div[class*="colorDefault"].focused-3afm-j,
