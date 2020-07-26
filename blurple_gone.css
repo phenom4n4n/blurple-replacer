@@ -21,6 +21,7 @@ div[class*="headerStreaming"] {
 
 /* Menus */
 
+div[class*="colorDefault-"]:active:not(.hideInteraction-1iHO1O),
 div[class*="colorDefault-"].focused-3afm-j,
 div[class*="colorDefault-"].focused-3afm-j:active {
     background-color: rgba(var(--alt-color)) !important;
