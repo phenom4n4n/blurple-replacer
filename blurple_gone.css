@@ -191,6 +191,12 @@ div[class*="scroller-"] div[style*="background: rgb(114, 137, 218);"] {
     border-color: rgba(var(--alt-color)) !important;
 }
 
+/* Toast */
+
+.powercord-toast[data-toast-type=info] .icon {
+    color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 
 div[class*="colorDefault"].focused-3afm-j,
