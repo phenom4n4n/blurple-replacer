@@ -3,7 +3,6 @@
 }
 
 /* Clyde / Powercord */
-
 .localBot-GrCgVt:before {
     background-color: rgba(var(--alt-color)) !important;
 }
@@ -13,14 +12,12 @@
 }
 
 /* Playing / Streaming Background */
-
 div[class*="headerPlaying"],
 div[class*="headerStreaming"] {
     background-color: rgba(var(--alt-color)) !important;
 }
 
 /* Menus */
-
 div[class*="colorDefault-"]:active:not(.hideInteraction-1iHO1O),
 div[class*="colorDefault-"].focused-3afm-j,
 div[class*="colorDefault-"].focused-3afm-j:active {
@@ -34,7 +31,6 @@ div[class*="colorDanger-"].focused-3afm-j:active {
 }
 
 /* Buttons */
-
 div[class*="themeDefault"].valueChecked-m-4IJZ,
 button[class*="lookFilled"].colorBrand-3pXr91,
 button[class*="lookFilled"].colorBrand-3pXr91:disabled,
@@ -45,13 +41,11 @@ button[class*="lookFilled"].colorBrand-3pXr91:hover {
 }
 
 /* Sliders */
-
 div[class*="barFill-"] {
     background-color: rgba(var(--alt-color)) !important;
 }
 
 /* Reactions */
-
 .reaction-1hd86g.reactionMe-wv5HKu {
     background-color: rgba(var(--alt-color), 0.3);
 }
@@ -61,7 +55,6 @@ div[class*="barFill-"] {
 }
 
 /* Server Boost Icon */
-
 div[class*="subscribeTooltipWrapper-"] {
     background-color: rgba(var(--alt-color));
 }
@@ -75,26 +68,22 @@ div[class*="subscribeTooltipWrapper-"]::after {
 }
 
 /* Bot Buttons */
-
 span[class*="botTagInvert-"] {
     color: rgba(var(--alt-color)) !important;
 }
 
 /* Message Edit Buttons */
-
 div[class*="operations-"] > a {
     color: rgba(var(--alt-color)) !important;
 }
 
 /* Channel Sync Buttons */
-
 button[class*="lookGhost-"].colorBrand-3pXr91 {
     color: rgba(var(--alt-color)) !important;
     background-color: rgba(var(--alt-color), 0.1) !important;
 }
 
 /* Video Player */
-
 div[class*="mediaBarInteractionDragging-"] .mediaBarGrabber-1FqnbN,
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN,
 .mediaBarGrabber-1FqnbN, 
@@ -105,31 +94,26 @@ div[class*="mediaBarInteractionDragging-"] .mediaBarGrabber-1FqnbN,
 }
 
 /* Guild Avatar Without Icon */
-
 div[class*="guildAvatarWithoutIcon-"] {
     background-color: rgba(var(--alt-color));
 }
 
 /* Cube Loading Spinner */
-
 span[class*="wanderingCubesItem-"] {
     background-color: rgba(var(--alt-color));
 }
 
 /* Load More Messages */
-
 .hasMore-3e72_v {
     color: rgba(var(--alt-color));
 }
 
 /* Server Verified Badges */
-
 svg[aria-label="Verified"] {
     color: rgba(var(--alt-color)) !important;
 }
 
 /* Wide Buttons */
-
 div[class*="radioGroup-"] div[style*="background-color: rgb(114, 137, 218)"] {
     background-color: rgba(var(--alt-color)) !important;
     border-color: rgba(var(--alt-color)) !important;
@@ -139,7 +123,6 @@ div[class*="cardPrimaryEditable-"] div[style*="border-color: rgb(114, 137, 218)"
 }
 
 /* Discord Nitro Button in Settings */
-
 div[class*="side-"] div[style*="color: rgb(114, 137, 218)"] {
     color: rgba(var(--alt-color)) !important;
 }
@@ -152,7 +135,6 @@ div[class*="side-"] div[style*="background-color: rgba(114, 137, 218, 0.1)"] {
 }
 
 /* Folder Icons */
-
 div[class*="expandedFolderIconWrapper-"] svg[style*="color: rgb(114, 137, 218);"] {
     color: rgba(var(--alt-color)) !important;
 }
@@ -161,45 +143,52 @@ div[class*="folder-"] div[style*="background-color: rgba(114, 137, 218, 0.4)"] {
 }
 
 /* Checkbox Button (1 of 1000) */
-
 label[class*="checkboxWrapper-"] div[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
     border-color: rgba(var(--alt-color)) !important;
     background-color: rgba(var(--alt-color)) !important;
 }
 
 /* the nitro tier thing */
-
 div[class*="tierUnlocked-"] {
     color: rgba(var(--alt-color)) !important;
 }
 
 /* Upload Image Button */
-
 svg circle[fill*="#7289DA"] {
     fill: rgba(var(--alt-color)) !important;
 }
 
 /* Audit Log Search */
-
 div[class*="scroller-"] div[style*="background: rgb(114, 137, 218);"] {
     background: rgba(var(--alt-color)) !important;
 }
 
 /* Clear After Popout Border */
-
 .lookFilled-1h1y05.select-1Pkeg4:focus,
 .lookFilled-1h1y05.selectOpen-hQuR6b {
     border-color: rgba(var(--alt-color)) !important;
 }
 
 /* Toast */
-
 .powercord-toast[data-toast-type=info] .icon {
     color: rgba(var(--alt-color)) !important;
 }
 
-/* Other stuff */
+/* Permissions Sync Text */
+.message-15tBk4 strong {
+    color: rgba(var(--alt-color)) !important;
+    background-color: rgba(var(--alt-color), 0.1)e;
+}
 
+/* Changelog */
+.improved-2jOfnH {
+    color: rgba(var(--alt-color)) !important;
+}
+.improved-2jOfnH:after {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+/* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
     color: #fff !important;
