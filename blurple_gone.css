@@ -188,6 +188,28 @@ div[class*="scroller-"] div[style*="background: rgb(114, 137, 218);"] {
     background-color: rgba(var(--alt-color)) !important;
 }
 
+/* Mentions */
+.wrapper-3WhCwL {
+    color: rgba(var(--alt-color));
+    background: rgba(var(--alt-color), 0.1);
+}
+
+/* Another Darned Checkbox */
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+    background-color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color)) !important;
+}
+
+/* Sync Server Template */
+.theme-dark .tooltipBrand-g03Nz8,
+.theme-light .tooltipBrand-g03Nz8 {
+    background-color: rgba(var(--alt-color)) !important;
+}
+.theme-dark .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK,
+.theme-light .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
+    border-top-color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
