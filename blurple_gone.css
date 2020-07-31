@@ -210,6 +210,11 @@ div[class*="scroller-"] div[style*="background: rgb(114, 137, 218);"] {
     border-top-color: rgba(var(--alt-color)) !important;
 }
 
+/* Media Loader */
+div[class*="progress-"] div[style*="background-color: rgb(114, 137, 218);"] {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
