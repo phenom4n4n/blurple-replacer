@@ -220,6 +220,19 @@ div[class*="tipTitle-"] {
     color: rgba(var(--alt-color)) !important;
 }
 
+/* Nother Loading Spinner */
+.theme-dark .path-92Hmty {
+    stroke: rgba(var(--alt-color)) !important;
+}
+.theme-dark .path2-1q7bG_ {
+    stroke: rgba(var(--alt-color)) !important;
+    opacity: .6;
+}
+.theme-dark .path3-2l9TIX {
+    stroke: rgba(var(--alt-color));
+    filter: grayscale(90%);
+}
+
 /* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
