@@ -233,6 +233,15 @@ div[class*="tipTitle-"] {
     filter: grayscale(90%);
 }
 
+/* 2020-08_view_as_roles experiment notice */
+.noticeRolesMode-1mMWO9 {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+.noticeRolesMode-1mMWO9 .button-1MICoQ:hover {
+    color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
