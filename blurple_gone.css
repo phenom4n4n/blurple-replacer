@@ -233,6 +233,14 @@ div[class*="tipTitle-"] {
     filter: grayscale(90%);
 }
 
+/* Discovery Thing*/
+.categoryPill-34fszg.selected-1dONk0 {
+    background-color: rgba(var(--alt-color)) !important;
+}
+.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus-within {
+    border-color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
