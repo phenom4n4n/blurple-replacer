@@ -113,6 +113,11 @@ svg[aria-label="Verified"] {
     color: rgba(var(--alt-color)) !important;
 }
 
+/* Server Partner Badges */
+svg[aria-label="Discord Partner"] {
+    color: rgba(var(--alt-color)) !important;
+}
+
 /* Wide Buttons */
 div[class*="radioGroup-"] div[style*="background-color: rgb(114, 137, 218)"] {
     background-color: rgba(var(--alt-color)) !important;
