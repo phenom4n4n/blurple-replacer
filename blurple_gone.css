@@ -255,6 +255,16 @@ div[class*="tipTitle-"] {
     color: rgba(var(--alt-color)) !important;
 }
 
+/* notif settings thing */
+.wrapper-3jrx9n {
+    border-color: rgba(var(--alt-color)) !important;
+}
+.option-n0icdO:hover,
+.selected-mKYnfr.option-n0icdO {
+    background-color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color)) !important;
+}
+
 /* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
