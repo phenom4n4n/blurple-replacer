@@ -241,13 +241,10 @@ div[class*="tipTitle-"] {
     border-color: rgba(var(--alt-color)) !important;
 }
 
-/* 2020-08_view_as_roles experiment notice */
-.noticeRolesMode-1mMWO9 {
-    background-color: rgba(var(--alt-color)) !important;
-}
-
-.noticeRolesMode-1mMWO9 .button-1MICoQ:hover {
-    color: rgba(var(--alt-color)) !important;
+/* 2020-08_view_as_roles experiment notice role choosing thing */
+.role-3ulsK- .iconContainer-1zobSR.checked-1Fij_T {
+  background-color: rgba(var(--alt-color));
+  border-color: rgba(var(--alt-color));
 }
 
 /* notif settings thing */
@@ -316,4 +313,8 @@ span[class*="botTagRegular"] {
     background-color: rgba(var(--alt-color)) !important;
     color: #fff !important;
     border-color: rgba(var(--alt-color)) !important;
+}
+
+.hasMoreButton-1MELpI {
+    color: rgba(var(--alt-color)) !important;
 }
