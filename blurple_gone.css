@@ -257,6 +257,11 @@ div[class*="tipTitle-"] {
     border-color: rgba(var(--alt-color)) !important;
 }
 
+/* Link underlines */
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px, rgba(var(--alt-color)) 0,rgba(var(--alt-color)) 2px,transparent 0);
+}
+
 /* Other stuff */
 div[class*="colorDefault"].focused-3afm-j,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
