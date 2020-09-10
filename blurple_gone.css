@@ -112,11 +112,6 @@ span[class*="wanderingCubesItem-"] {
     color: rgba(var(--alt-color));
 }
 
-/* Server Verified Badges */
-svg[aria-label="Verified"] {
-    color: rgba(var(--alt-color)) !important;
-}
-
 /* Server Partner Badges */
 svg[aria-label="Discord Partner"] {
     color: rgba(var(--alt-color)) !important;
@@ -250,13 +245,10 @@ div[class*="tipTitle-"] {
     border-color: rgba(var(--alt-color)) !important;
 }
 
-/* 2020-08_view_as_roles experiment notice */
-.noticeRolesMode-1mMWO9 {
-    background-color: rgba(var(--alt-color)) !important;
-}
-
-.noticeRolesMode-1mMWO9 .button-1MICoQ:hover {
-    color: rgba(var(--alt-color)) !important;
+/* 2020-08_view_as_roles experiment notice role choosing thing */
+.role-3ulsK- .iconContainer-1zobSR.checked-1Fij_T {
+  background-color: rgba(var(--alt-color));
+  border-color: rgba(var(--alt-color));
 }
 
 /* notif settings thing */
@@ -267,6 +259,11 @@ div[class*="tipTitle-"] {
 .selected-mKYnfr.option-n0icdO {
     background-color: rgba(var(--alt-color)) !important;
     border-color: rgba(var(--alt-color)) !important;
+}
+
+/* Link underlines */
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px, rgba(var(--alt-color)) 0,rgba(var(--alt-color)) 2px,transparent 0);
 }
 
 /* Other stuff */
@@ -325,4 +322,8 @@ span[class*="botTagRegular"] {
     background-color: rgba(var(--alt-color)) !important;
     color: #fff !important;
     border-color: rgba(var(--alt-color)) !important;
+}
+
+.hasMoreButton-1MELpI {
+    color: rgba(var(--alt-color)) !important;
 }
