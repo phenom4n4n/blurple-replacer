@@ -2,6 +2,10 @@
     --alt-color: 55, 178, 203; /* Must be an rgb color for opacity to work */
 }
 
+.theme-light {
+    --logo-primary: rgba(var(--alt-color));
+  }
+  
 /* Clyde / Powercord */
 .localBot-GrCgVt:before {
     background-color: rgba(var(--alt-color)) !important;
