@@ -245,12 +245,6 @@ div[class*="tipTitle-"] {
     border-color: rgba(var(--alt-color)) !important;
 }
 
-/* 2020-08_view_as_roles experiment notice role choosing thing */
-.role-3ulsK- .iconContainer-1zobSR.checked-1Fij_T {
-  background-color: rgba(var(--alt-color));
-  border-color: rgba(var(--alt-color));
-}
-
 /* notif settings thing */
 .wrapper-3jrx9n {
     border-color: rgba(var(--alt-color)) !important;
@@ -280,6 +274,18 @@ div[class*="tipTitle-"] {
 .result-3w1ZcL:hover:after {
     -webkit-box-shadow: inset 0 0 0 2px rgba(var(--alt-color)), inset 0 0 0 3px #2f3136 !important;
     box-shadow: inset 0 0 0 2px rgba(var(--alt-color)), inset 0 0 0 3px #2f3136 !important;
+}
+
+/* View as Roles */
+div[class^="noticeText-"] {
+    color: #fff !important;
+}
+.colorBrand-2zeG8h {
+    background-color: rgba(var(--alt-color)) !important;
+    color: #fff !important;
+}
+.button-3Ijpww:hover {
+    background-color: rgba(var(--alt-color)) !important;
 }
 
 /* Other stuff */
