@@ -7,12 +7,18 @@
   }
   
 /* Clyde / Powercord */
+.ephemeral-1PsL1r:before,
 .localBot-GrCgVt:before {
     background-color: rgba(var(--alt-color)) !important;
 }
 
+.ephemeral-1PsL1r,
 .localBot-GrCgVt {
     background-color: rgba(var(--alt-color), 0.05) !important;
+}
+
+.ephemeralMessage-1fEWtQ a {
+    color: rgba(var(--alt-color)) !important;
 }
 
 /* Playing / Streaming Background */
