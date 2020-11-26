@@ -1,5 +1,6 @@
 :root {
     --alt-color: 55, 178, 203; /* Must be an rgb color for opacity to work */
+    --radio-group-dot-foreground: rgba(var(--alt-color));
 }
 
 .theme-light {
@@ -7,11 +8,13 @@
   }
   
 /* Clyde / Powercord */
+.replying-1x3H0T:before,
 .ephemeral-1PsL1r:before,
 .localBot-GrCgVt:before {
     background-color: rgba(var(--alt-color)) !important;
 }
 
+.replying-1x3H0T,
 .ephemeral-1PsL1r,
 .localBot-GrCgVt {
     background-color: rgba(var(--alt-color), 0.05) !important;
