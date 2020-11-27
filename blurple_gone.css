@@ -160,6 +160,9 @@ label[class*="checkboxWrapper-"] div[style*="border-color: rgb(114, 137, 218); b
     border-color: rgba(var(--alt-color)) !important;
     background-color: rgba(var(--alt-color)) !important;
 }
+.selectedIcon-3uS11H {
+    color: rgba(var(--alt-color)) !important;
+}
 
 /* the nitro tier thing */
 div[class*="tierUnlocked-"] {
