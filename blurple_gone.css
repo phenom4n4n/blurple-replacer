@@ -60,7 +60,8 @@ div[class*="barFill-"] {
 
 /* Reactions */
 .reaction-1hd86g.reactionMe-wv5HKu {
-    background-color: rgba(var(--alt-color), 0.3);
+    background-color: rgba(var(--alt-color), 0.15);
+    border-color: rgba(var(--alt-color)) !important;
 }
 
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
@@ -167,6 +168,10 @@ label[class*="checkboxWrapper-"] div[style*="border-color: rgb(114, 137, 218); b
 /* the nitro tier thing */
 div[class*="tierUnlocked-"] {
     color: rgba(var(--alt-color)) !important;
+}
+.premiumTabItem-1QTfBr[aria-selected=true],
+.serverBoostTabItem-2hFTIN[aria-selected=true] {
+    background-color: rgba(var(--alt-color)) !important;
 }
 
 /* Upload Image Button */
