@@ -1,7 +1,10 @@
 :root {
     --alt-color: 55, 178, 203; /* Must be an rgb color for opacity to work */
+    --hsl-alt-color: 190;
     --radio-group-dot-foreground: rgba(var(--alt-color)) !important;
     --brand-experiment: rgba(var(--alt-color)) !important;
+    --brand-experiment-30a: rgba(var(--alt-color), 0.3) !important;
+    --brand-experiment-200: rgba(var(--alt-color)) !important;
     --brand-experiment-500: rgba(var(--alt-color)) !important;
 }
 
@@ -212,10 +215,12 @@ div[class*="scroller-"] div[style*="background: rgb(114, 137, 218);"] {
 }
 
 /* Mentions */
+
+/*
 .wrapper-3WhCwL {
     color: rgba(var(--alt-color));
     background: rgba(var(--alt-color), 0.1);
-}
+}*/
 
 /* Another Darned Checkbox */
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
