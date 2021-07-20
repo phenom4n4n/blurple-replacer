@@ -4,7 +4,7 @@
     --radio-group-dot-foreground: rgba(var(--alt-color)) !important;
     --brand-experiment: rgba(var(--alt-color)) !important;
     --brand-experiment-30a: rgba(var(--alt-color), 0.3) !important;
-    --brand-experiment-200: rgba(var(--alt-color)) !important;
+    --brand-experiment-200: rgba(215, 239, 244) !important;
     --brand-experiment-500: rgba(var(--alt-color)) !important;
 }
 
